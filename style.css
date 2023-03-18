@@ -1,0 +1,1018 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: black;
+    font-family: sans-serif;
+}
+
+
+
+.container{
+ width: 80%;
+ margin: 0 auto;
+ 
+}
+
+.call-section{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 43, 43);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.call{
+    position: relative;
+    top: 5px;
+}
+.browser{
+    position: relative;
+    top: 15px;
+}
+.phn, .fa-phone, .fa-envelope{
+    padding: 10px;
+}
+
+/* ......logo section...... */
+
+.logo-navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-navbar img{
+    position: relative;
+    top: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar ul{
+    position: relative;
+    top: 20px;
+}
+
+/* bg-section */
+.bg-section{
+    width: 100%;
+    height: 80vh;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/bg/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.brand-notice{
+    /* background-color: red; */
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 80%;
+}
+.brand-notice h1{
+    font-size: 50px;
+}
+.brand-notice p{
+    position: relative;
+    top: 20px;
+    line-height: 1.3;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bg-btn{
+    position: relative;
+    top: 60px;
+    width: 140px;
+    background-color: blue;
+    color: white;
+
+}
+
+/* srvices */
+.service{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+
+
+}
+.service-header{
+    text-align: center;
+
+    position: relative;
+    top: 50px;
+    height: 200px;
+}
+.service-header h3{
+   font-size: 40px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+
+}
+
+.under-line{
+    border-bottom: 1px solid #000;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 50%;
+}
+
+.web-design-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* justify-content: center; */
+    gap: 30px;
+
+}
+
+.web-design-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.design-btn{
+  color: blue;
+  border: 1px solid blue;
+  align-self: flex-start;
+  width: 140px;
+}
+
+/* all features */
+.all-features{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+
+
+}
+.flex-all-features{
+    position: relative;
+    top: 40px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  
+
+    
+}
+.features-text{
+    background-color: rgb(4, 0, 255);
+    width: 400px;
+    height: 450px;
+    /* text-align: center; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.features-text p{
+ margin-bottom: 05px;
+ font-family:  'Trebuchet MS', sans-serif;
+ font-size: 12px;
+ margin-right: 175px;
+
+
+}
+.features-text h3{
+ margin-bottom: 40px;
+   
+    margin-right: 105px;
+    font-size: 28px;
+   }
+
+.features-text ul li{
+    
+    list-style: none;
+    line-height: 1.8;
+   
+}
+.features-btn{
+   border: 1px solid white;
+   background: transparent;
+   color: white;
+   margin: 30px 0 0 65px;
+   width: 110px;
+ 
+}
+
+
+.features-text-white{
+    background-color: white;
+    color: #000;
+}
+
+.feature-whute-btn{
+   margin: 30px 0 0 65px;
+  width: 120px;
+}
+
+
+/* create service */
+.create-service{
+    height: 530px;
+    width: 100%;
+    background-color: white;
+
+}
+
+.create-all-img{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+    gap: 50px;
+}
+ .create-img-one{
+    border-right: 1px solid rgb(210, 200, 200);
+
+ }
+
+ .create-img-one p{
+    text-align: center;
+    font-weight: bold;
+ }
+ .create-btn{
+    margin-left: 500px;
+    margin-top: 50px;
+ }
+
+ /* video section */
+ .video-section{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/img/video/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .fa-circle-play{
+    color: white;
+    font-size: 50px;
+  
+    background: transparent;
+ }
+
+
+ /* service two */
+
+.service-two-all-img{
+
+width: 58%;
+}
+.create-service-btn{
+    margin-left: 540px;
+    margin-top: 50px;
+}
+
+
+
+
+ /* about-us */
+ .about-us{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(234, 230, 230);
+   
+ }
+ .about-text-p{
+    font-size: 25px;
+    margin: 10px 0;
+   
+ }
+ .about-us-flex{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+
+    justify-content: space-around;
+ }
+ .white-div{
+  width: 320px;
+  height: 10px;
+  background-color: rgb(189, 158, 158);
+  border-radius: 20px;
+ }
+
+ .blue-div{
+    width: 270px;
+    height: 10px;
+    background-color: blue;
+  border-radius: 20px;
+
+ }
+ .percentage-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 2px;
+ }
+
+
+ .mian-percentage-div{
+     margin-right: 50px;
+    height: 300px;
+ }
+ .blue-div-three{
+    width: 200px;
+ }
+
+ .blue-div-four{
+    width: 240px;
+ }
+
+ .fermento-btn{
+   background: transparent;
+   position: relative;
+   top: 50px;
+ }
+
+
+
+ 
+
+/* agent */
+
+.blue-box{
+ height: 150px;
+ background-color: blue;
+ width: 100%;
+}
+.blue-box-contain{
+    display: flex;
+    /* background-color: aqua; */
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: 70px;
+}
+.blue-box-contain h4{
+    font-size: 20px;
+    color: white;
+
+}
+.fa-bullhorn{
+    font-size: 30px;
+    color: white;
+}
+ .blue-btn button{
+    width: 130px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+ }
+ .span-contact{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+ }
+
+ /* second about */
+
+ .second-about{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+ }
+ .secon-about-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ /* third-about-us */
+ .third-about-us {
+    height: 600px;
+    background-color: rgb(237, 232, 232);
+    width: 100%;
+ }
+
+ .third-about-us-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+ 
+    justify-content: space-around;
+    gap: 50px;
+ }
+
+ .third-about-img-text h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+ .third-about-img-text p{
+   margin: 10px 0;
+   line-height: 1.3;
+ }
+
+ .fa-facebook, .fa-twitter, .fa-instagram{
+    background-color: white;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 20px;
+ }
+
+ .fa-twitter, .fa-instagram{
+margin-left: 10px;
+ }
+
+ /* bussines pack */
+
+ .bussines-pack{
+    background-image:  url(/img/bg2/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    background-blend-mode: multiply;
+    color: white;
+}
+
+.bussiness-container{
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+    position: relative;
+    
+}
+.bussiness-container img{
+    margin-top: 50px;
+}
+.bussiness-container h2{
+    /* position: relative;
+  top: 10px; */
+  margin: 20px 0;
+  font-size: 45px;
+}
+
+.bussines-btn{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 30px;
+}
+
+/* footer ............section............ */
+.sponser{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+}
+.sponser-img{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.footer-section{
+    height: 450px;
+    background-color: rgb(35, 31, 31);
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: center;
+   width: 80%;
+   justify-content: space-around;
+   margin-left: 100px;
+   position: relative;
+   top: 110px;
+}
+
+.footer-one img{
+    margin-bottom: 50px;
+}
+.footer-two h3{
+    margin-bottom: 20px;
+
+}
+.footer-two ul li{
+line-height: 1.8;
+}
+
+.footer-line{
+    margin-top: 150px;
+    border: 1px solid white;
+}
+
+.copyright-flex{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/* project 6th */
+
+.portfolia{
+    height: 830px;
+    width: 100%;
+    background-color: white;
+}
+
+.portfolio-flex-one{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.portfolio-btn{
+    position: relative;
+    bottom: 20px;
+}
+
+/* something-more */
+
+
+/* .something-more-white{
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid red;
+
+} */
+.something-more{
+    background: linear-gradient(rgb(0,0,255)50%, rgb(255, 255, 255)50% );
+    height: 750px;
+    width: 100%;
+  color: white;
+
+}
+
+.something-more p{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.something-more img{
+    margin: 30px 300px;
+}
+
+.something-underline{
+    border: 1px solid white;
+}
+
+/* agency */
+.agency{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(231, 222, 222);
+}
+
+.agency-flex{
+    display: flex;
+ 
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    /* height: 200px; */
+}
+
+.agency-number-div{
+    /* border: 2px solid green; */
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgb(211, 204, 204);
+}
+
+.agency-number-div h3{
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* recent work */
+
+.recent-work{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.receny-work-btn{
+  bottom: 80px;
+}
+
+
+.main-recent-flex{
+    /* background-color: red; */
+    height: 550px;
+    
+}
+.recent-work-grid{
+    /* background-color: red; */
+    display: flex;
+ 
+    width: 80%;
+    margin: 0 auto;
+    /* flex-wrap: nowrap; */
+    /* gap: 20px; */
+    justify-content: center;
+   gap: 20px;
+
+}
+.grid-img{
+    /* border: 2px solid black; */
+
+}
+.grid-recent-text{
+    /* border: 2px solid black; */
+    background-color: blue;
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    
+ 
+
+}
+.grid-recent-text h3{
+    position: relative;
+    top: 60px;
+}
+.grid-recent-text p{
+    position: relative;
+    top: 70px;
+}
+
+.grid-recent-text{
+
+}
+.grid-img-fourth{
+    /* border: 2px solid rgb(6, 6, 6); */
+    position: relative;
+    bottom: 100px;
+
+
+}
+
+.recent-btn{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.grid-img-two{
+    /* border: 2px solid rgb(6, 6, 6); */
+    height: 200px;
+}
+.grid-img-three{
+     position: relative;
+     top: 10px;
+  
+}
+
+
+
+/* what-we-create */
+
+.what-we-create{
+    height: 700px;
+    background-color: white;
+
+}
+
+.brand-img-one-flex{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.creta-text{
+    position: relative;
+    top: 20px;
+
+}
+
+.all-left-right-flex{
+    display: flex;
+
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.porfolio{
+    height: 850px;
+    background-color: rgb(255, 255, 255);
+}
+
+.porfolio-flex{
+   display: flex;
+
+   gap: 20px;
+   width: 70%;
+   margin: 0 auto;
+
+   justify-content: space-around;
+}
+
+.porfolio-imgone {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-height{
+    height: 350px;
+}
+
+
+/* ......pricing tables */
+
+.the-biggest{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}.the-biggest h3{
+    position: relative;
+    top: 20px;
+    font-size: 35px;
+
+}
+
+
+
+
+
+.pricing-table{
+    height: 820px;
+    width: 100%;
+    background-color: rgb(99, 138, 220);
+    color: white;
+
+}
+.pricing-line{
+  border-bottom: 1px solid red;
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+.princing-text p{
+  position: relative;
+  top: 120px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family:  sans-serif;
+}
+.line-div{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: relative;
+    top: 140px;
+    width: 80%;
+    margin: 0 auto;
+}
+.pricing-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    height: 400px;
+    width: 70%;
+    position: relative;
+    top: 180px;
+    margin: 0 auto;
+}
+.priing-basic-one{
+
+    width: 300px;
+    text-align: center;
+    background-color: rgb(5, 107, 249);
+    color: white;
+
+    border-radius: 4px;
+    box-shadow: 1px 1px rgb(160, 146, 146);
+    
+}
+.priing-basic-one h3{
+    position: relative;
+    top: 80px;
+    font-size: 40px;
+
+}
+.priing-basic-one h4{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+
+}
+.priing-basic-one p{
+    position: relative;
+    top: 100px;
+    font-family: Tahoma, sans-serif;
+}
+.pricing-btn{
+    position: relative;
+    top: 130px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 140px;
+    background: transparent;
+   
+}
+
+.priing-basic-two{
+    background-color: rgb(37, 75, 165);
+    color: white;
+}
+.pricing-btntwo{
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+.new-btn{
+    top: 230px;
+    left: 535px;
+    width: 150px;
+}
+
+
+
+/* .........features-sectio.......... */
+
+.features-section{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.featres-head{
+    position: relative;
+    top: 30px;
+ 
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 18px;
+}
+
+.features-flex{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+
+.features-left p{
+    line-height: 1.5;
+    font-family:    'Lucida Sans', Arial, sans-serif
+}
+
+.tick-box {
+    color: blue;
+    margin-right: 8px;
+}
+
+.features-btn{
+    border: 1px solid blue;
+    position: relative;
+    top: 200px;
+    left: 60px;
+    width: 130px;
+    
+}
+
+.features-section button{
+    color: blue;
+}
+
+
+/* ............about us agency......... */
+
+.agency-section{
+    height: 700px;
+    background-color: rgb(239, 236, 236);
+}
+
+.agency-flex{
+    display: flex;
+}
+
+.agency-left{
+    background-color: rgb(255, 255, 255);
+    height: 450px;
+    box-shadow: 2px 2px 2px rgb(140, 137, 137);
+}
+
+
+/* .......see our stuido...... */
+
+.passes{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(219, 219, 227);
+    color: white;
+}
+
+.passes-flex-one{
+
+ position: relative;
+ top: 50px;
+ width: 70%;
+ margin: 0 auto;
+ display: flex;
+ height: 170px;
+ justify-content: space-around;
+ background-color: white;
+ color: black;
+ align-items: center;
+ border-radius: 2px;
+}
+
+
+.day-price{
+ position: relative;
+ right: 15px;
+ top: 2px;
+}
+
+
+/* testimonial */
+.testimonial{
+    height: 500px;
+    background-color: rgb(248, 242, 242);
+}
+
+
+.testimonial-flex{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+
+    justify-content: space-around;
+
+}
+
+
+.testmonil-img-flex{
+    display: flex;
+    box-shadow: 1px 1px 1px rgb(209, 198, 198);
+}
+
+.testimonial-left{
+    background-color: white;padding: 18px;
+    height: 260px;
+    box-shadow: 2px 2px 2px rgb(209, 198, 198);
+
+}
+
+.testi-p{
+    line-height: 1.4;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    color: rgb(124, 117, 117);
+   
+}
+
+.testmonil-img-flex{
+    margin-top: 50px;
+    gap: 15px;
+}
